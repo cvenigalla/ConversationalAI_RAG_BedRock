@@ -1,0 +1,5 @@
+We're going to build an AI Paper chat bot that is able to answer questions based on Paper arXiv paper. 
+These can be complex for any AI Analyst. Our application is going to be built using Amazon Bedrock and LangChain. To quickly spin up a user interface, we'll be using Streamlit. To index our content, we'll take two approaches. The first is using knowledge pieces, which is a feature built into Amazon Bedrock, which helps us index our content. We'll then show alternatively how Amazon Kendra can be used as our underlying index and vector store. We will also look at how to incorporate your conversation history as additional context, so you can ask follow-up questions on answers that were previously provided. Finally, we will look at how you can extend the capabilities of your chat bot beyond the question and answering by performing actions using agents. Agents for Bedrock allow us to dynamically invoke APIs to help complete tasks as part of a sequence of events in a chain for your application. 
+
+I'm excited to start building our conversational chat bot
+
